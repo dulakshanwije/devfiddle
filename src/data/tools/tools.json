@@ -1,0 +1,144 @@
+[
+  {
+    "icon": "/images/tools/case-converter.svg",
+    "title": "Case Converter",
+    "code": "case-converter",
+    "description": "Convert text to uppercase, lowercase, title case and more.",
+    "link": "/tools/case-converter",
+    "related": [
+      {
+        "icon": "/images/tools/character-counter.svg",
+        "title": "Character Counter",
+        "code": "character-counter",
+        "description": "Count characters, words, sentences and paragraphs.",
+        "link": "/tools/character-counter"
+      },
+      {
+        "icon": "/images/tools/text.svg",
+        "title": "Slug Generator",
+        "code": "slug-generator",
+        "description": "Generate SEO-friendly URL slugs from any text.",
+        "link": "/tools/slug-generator"
+      }
+    ]
+  },
+  {
+    "icon": "/images/tools/aspect-ratio.svg",
+    "title": "Aspect Ratio Calculator",
+    "code": "aspect-ratio-calculator",
+    "description": "Calculate and convert aspect ratios for images and videos.",
+    "link": "/tools/aspect-ratio-calculator",
+    "related": [
+      {
+        "icon": "/images/tools/ratio.svg",
+        "title": "Image Resize Calculator",
+        "code": "image-resize-calculator",
+        "description": "Resize images while maintaining aspect ratio.",
+        "link": "/tools/image-resize-calculator"
+      }
+    ]
+  },
+  {
+    "icon": "/images/tools/character-counter.svg",
+    "title": "Character Counter",
+    "code": "character-counter",
+    "description": "Count characters, words, spaces, sentences and paragraphs.",
+    "link": "/tools/character-counter",
+    "related": [
+      {
+        "icon": "/images/tools/case-converter.svg",
+        "title": "Case Converter",
+        "code": "case-converter",
+        "description": "Convert your text into different case styles.",
+        "link": "/tools/case-converter"
+      },
+      {
+        "icon": "/images/tools/text.svg",
+        "title": "Word Frequency Analyzer",
+        "code": "word-frequency",
+        "description": "Analyze repeated words in text content.",
+        "link": "/tools/word-frequency"
+      }
+    ]
+  },
+  {
+    "icon": "/images/tools/resistor-color-code.svg",
+    "title": "Resistor Color Code Calculator",
+    "code": "resistor-color-code-calculator",
+    "description": "Decode resistor color bands to determine resistance values.",
+    "link": "/tools/resistor-color-code-calculator",
+    "related": [
+      {
+        "icon": "/images/tools/electric.svg",
+        "title": "Ohm's Law Calculator",
+        "code": "ohms-law-calculator",
+        "description": "Calculate voltage, current, resistance and power.",
+        "link": "/tools/ohms-law-calculator"
+      }
+    ]
+  },
+  {
+    "icon": "/images/tools/prime-factor.svg",
+    "title": "Prime Factor Calculator",
+    "code": "prime-factor-calculator",
+    "description": "Find the prime factors of any number instantly.",
+    "link": "/tools/prime-factor-calculator",
+    "related": [
+      {
+        "icon": "/images/tools/prime-factor.svg",
+        "title": "LCM & GCD Calculator",
+        "code": "lcm-gcd-calculator",
+        "description": "Calculate the Least Common Multiple and Greatest Common Divisor.",
+        "link": "/tools/lcm-gcd-calculator"
+      }
+    ]
+  },
+  {
+    "icon": "/images/tools/password.svg",
+    "title": "Password Generator",
+    "code": "password-generator",
+    "description": "Generate strong, secure passwords instantly.",
+    "link": "/tools/password-generator",
+    "related": [
+      {
+        "icon": "/images/tools/text.svg",
+        "title": "UUID Generator",
+        "code": "uuid-generator",
+        "description": "Generate unique UUID values online.",
+        "link": "/tools/uuid-generator"
+      }
+    ]
+  },
+  {
+    "icon": "/images/tools/decode-encode.svg",
+    "title": "URL Encoder & Decoder",
+    "code": "url-encoder-decoder",
+    "description": "Encode or decode URLs safely and quickly.",
+    "link": "/tools/url-encoder-decoder",
+    "related": [
+      {
+        "icon": "/images/tools/text.svg",
+        "title": "Slug Generator",
+        "code": "slug-generator",
+        "description": "Create clean and SEO-friendly slugs.",
+        "link": "/tools/slug-generator"
+      }
+    ]
+  },
+  {
+    "icon": "/images/tools/language-json.svg",
+    "title": "JSON Formatter & Validator",
+    "code": "json-formatter",
+    "description": "Format and validate JSON with proper indentation.",
+    "link": "/tools/json-formatter",
+    "related": [
+      {
+        "icon": "/images/tools/json.svg",
+        "title": "Base64 Encoder & Decoder",
+        "code": "base64-encoder-decoder",
+        "description": "Encode or decode Base64 strings.",
+        "link": "/tools/base64-encoder-decoder"
+      }
+    ]
+  }
+]
