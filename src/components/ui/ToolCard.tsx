@@ -12,7 +12,7 @@ const ToolCard = ({ title, icon, description, link }: ToolCardProps) => {
   return (
     <>
       <Link href={link}>
-        <div className="border border-primary w-full h-[180px] bg-white rounded-2xl drop-shadow-md flex flex-col justify-start items-center gap-2 hover:drop-shadow-lg hover:scale-101 px-3">
+        <div className="border border-primary w-full h-[180px] bg-white rounded-2xl drop-shadow-md flex flex-col justify-start items-center gap-2 hover:drop-shadow-lg hover:scale-101">
           <Image
             src={icon}
             width={"80"}
