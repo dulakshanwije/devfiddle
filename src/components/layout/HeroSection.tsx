@@ -18,11 +18,11 @@ const data = [
     link: "/tools",
   },
   {
-    title: "Prompts",
+    title: "Snippets",
     description:
-      "Prompts that worked well enough to save. Collected here for easy reference.",
-    cta: "Browse Prompts",
-    link: "/prompts",
+      "Snippets that worked well enough to save. Collected here for easy reference.",
+    cta: "Browse Snippets",
+    link: "/snippets",
   },
 ];
 
@@ -32,7 +32,7 @@ const HeroSection = () => {
       <div className="bg-linear-to-b from-[#156054] to-primary h-16/20 rounded-b-2xl text-4xl">
         <div className="flex flex-col justify-center items-center bg-[url('/images/bg-hero.svg')] bg-no-repeat bg-center h-full w-full">
           <p className="mb-2 bg-white border border-secondary text-secondary rounded-full px-4 py-1 text-sm max-w-1/2 text-center font-semibold tracking-wide">
-            #dulabuilds.dev
+            #devfiddle.com
           </p>
           <h1 className="mb-3 text-shadow-lg/30 text-5xl md:text-7xl text-white font-bold text-center tracking-wide">
             Bringing all

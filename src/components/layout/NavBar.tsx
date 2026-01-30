@@ -15,9 +15,9 @@ import Link from "next/link";
 
 const navigation = [
   { name: "Home", href: "#", current: true },
-  { name: "Tools", href: "#", current: false },
-  { name: "Propmts", href: "#", current: false },
-  { name: "Articles", href: "#", current: false },
+  { name: "Tools", href: "/tools", current: false },
+  { name: "Snippets", href: "/snippets", current: false },
+  { name: "Articles", href: "/articles", current: false },
 ];
 
 const classNames = (...classes: string[]) => {
@@ -51,7 +51,7 @@ const NavBar = () => {
             <div className="flex shrink-0 items-center">
               <Link href={"/"}>
                 <Image
-                  alt="DulaBuilds.Dev"
+                  alt="devfiddle.com"
                   src="/images/logo.svg"
                   width={50}
                   height={100}
@@ -71,7 +71,7 @@ const NavBar = () => {
                       item.current
                         ? "bg-primary text-white"
                         : "text-black hover:bg-primary/10",
-                      "rounded-md px-3 py-2 text-sm font-medium"
+                      "rounded-md px-3 py-2 text-sm font-medium",
                     )}
                   >
                     {item.name}
@@ -146,7 +146,7 @@ const NavBar = () => {
                 item.current
                   ? "bg-primary text-white"
                   : "text-black hover:bg-primary/10",
-                "block rounded-md px-3 py-2 text-base font-medium"
+                "block rounded-md px-3 py-2 text-base font-medium",
               )}
             >
               {item.name}
