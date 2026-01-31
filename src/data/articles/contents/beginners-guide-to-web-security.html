@@ -1,0 +1,92 @@
+<div
+    style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; line-height:1.65; color:#111; background:#fff; margin:0 auto; padding:28px; max-width:900px;">
+    <article style="margin:0 auto;">
+        <header style="margin-bottom:18px;">
+            <h1 style="font-size:30px; margin:0 0 8px;">Beginner's Guide to Web Security: Common Attacks and Best
+                Practices</h1>
+            <p style="margin:0; font-size:14px; color:#555;">Published <time datetime="2025-08-24">August 24,
+                    2025</time></p>
+        </header>
+
+        <figure style="margin:18px 0; display:block; text-align:center;">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyalHofAiJr1qfIrTXhPKyAjcOP8QVVmalgHedjH-ZzuBapD_0OdrLgE9HRXXAFp9NqK_GeYG0jS3ZcVmYLbE48NgRhFGeg45kZxqqF3JK2o73fMZemZpvmSrAcn7btvUohzgP8Wox-SKA5dYmk2OPfT5hJta1ZYMKmzy_vq7iB9kB4JDbl5XkB_9X670J/s400/code-8779047_640.webp"
+                alt="code reflection digital technology" loading="lazy"
+                style="max-width:100%; height:auto; border-radius:8px; box-shadow:0 6px 20px rgba(0,0,0,0.08);" />
+            <figcaption style="font-size:12px; color:#666; margin-top:6px;">Photo: Code Reflection Digital Technology.
+                <span style="color:#444;">Credit:</span> <a
+                    href="https://pixabay.com/users/tylijura-22072131/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8779047"
+                    rel="noopener noreferrer" style="color:#1a0dab; text-decoration:none;">Image by Tyli Jura from
+                    Pixabay</a>
+            </figcaption>
+        </figure>
+
+        <section style="margin-bottom:18px;">
+            <p style="font-size:16px; margin:0; color:#222;">This beginner-friendly guide explains common web security
+                vulnerabilities and best practices to prevent them. Each question is simplified with clear explanations
+                so anyone can understand the basics of securing web applications. Extra tips and insights have been
+                added for deeper learning.</p>
+        </section>
+
+        <section aria-labelledby="faq-heading" style="margin-top:12px;">
+            <h2 id="faq-heading" style="font-size:22px; margin:8px 0 12px;">Frequently Asked Questions</h2>
+            <div style="margin-bottom:14px;">
+                <h3 style="font-size:18px; margin:0 0 6px;">1. An attacker has injected your website with malicious
+                    scripts. These scripts are intended to run in another user’s browser. This script tries to steal the
+                    session cookies from users who visit your site. What type of attack has occurred?</h3>
+                <div style="padding-left:10px;">
+                    <p style="margin:0 0 6px;">Cross-site scripting</p>
+                    <p style="font-size:13px; color:#555; margin:0;">This attack, known as Cross-Site Scripting (XSS),
+                        allows hackers to insert harmful scripts into web pages. When other users view the page, the
+                        malicious code runs in their browsers, potentially stealing session cookies, hijacking accounts,
+                        or redirecting them to harmful sites. Prevent XSS by validating inputs, escaping outputs, and
+                        using security headers like Content-Security-Policy (CSP).</p>
+                </div>
+            </div>
+            <div style="margin-bottom:14px;">
+                <h3 style="font-size:18px; margin:0 0 6px;">2. An attacker has modified the WHERE clause of user
+                    authentication to always result in TRUE. What type of attack has occurred?</h3>
+                <div style="padding-left:10px;">
+                    <p style="margin:0 0 6px;">An SQL manipulation attack</p>
+                    <p style="font-size:13px; color:#555; margin:0;">In this attack, the WHERE clause is changed so the
+                        database always considers the login attempt valid, giving attackers unauthorized access. Using
+                        parameterized queries, prepared statements, and strict input validation can help prevent SQL
+                        manipulation attacks.</p>
+                </div>
+            </div>
+            <div style="margin-bottom:14px;">
+                <h3 style="font-size:18px; margin:0 0 6px;">3. An attacker has inserted an additional SQL statement into
+                    another SQL statement so that two will execute as one. What type of attack has occurred?</h3>
+                <div style="padding-left:10px;">
+                    <p style="margin:0 0 6px;">A code injection attack</p>
+                    <p style="font-size:13px; color:#555; margin:0;">This is a form of SQL Injection where attackers
+                        combine multiple queries into a single statement. Limiting database privileges, using stored
+                        procedures, and applying strict input checks can reduce the risk significantly.</p>
+                </div>
+            </div>
+            <div style="margin-bottom:14px;">
+                <h3 style="font-size:18px; margin:0 0 6px;">4. An attacker has infiltrated your organization and has
+                    stolen your application programming interface (or API) encryption keys. What could you have
+                    implemented to prevent this from occurring?</h3>
+                <div style="padding-left:10px;">
+                    <p style="margin:0 0 6px;">A secrets management solution</p>
+                    <p style="font-size:13px; color:#555; margin:0;">Secrets management solutions securely store API
+                        keys, passwords, and certificates, keeping them encrypted and rotating them regularly. Tools
+                        like HashiCorp Vault or AWS Secrets Manager can prevent attackers from accessing sensitive keys
+                        even if servers are compromised.</p>
+                </div>
+            </div>
+            <div style="margin-bottom:14px;">
+                <h3 style="font-size:18px; margin:0 0 6px;">5. Recently, there has been an increase in the number of
+                    times your application has crashed. Log analysis indicates tz_offset, a function that returns the
+                    time zone offset, was used to cause a buffer overflow. How could you have prevented this type of
+                    attack?</h3>
+                <div style="padding-left:10px;">
+                    <p style="margin:0 0 6px;">Use query parameters as placeholders</p>
+                    <p style="font-size:13px; color:#555; margin:0;">Buffer overflow attacks occur when applications do
+                        not properly handle input sizes. By using parameterized queries and validating input lengths,
+                        developers can prevent attackers from injecting oversized or harmful data into the system.</p>
+                </div>
+            </div>
+        </section>
+    </article>
+</div>

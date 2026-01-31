@@ -9,16 +9,22 @@ import { promises as fs } from "fs";
 import path from "path";
 
 export default async function Home() {
-  const filePath = path.join(process.cwd(), "src/data/tools/tools.json");
-  const jsonData = await fs.readFile(filePath, "utf8");
-  const tools = JSON.parse(jsonData);
+  const toolsFilePath = path.join(process.cwd(), "src/data/tools/tools.json");
+  const articlesFilePath = path.join(
+    process.cwd(),
+    "src/data/articles/articles.json",
+  );
+  const toolsJson = await fs.readFile(toolsFilePath, "utf8");
+  const articleJson = await fs.readFile(articlesFilePath, "utf8");
+  const tools = JSON.parse(toolsJson);
+  const articles = JSON.parse(articleJson);
   return (
     <>
       <NavBar />
       <HeroSection />
       <ToolGrid data={tools} limit={10} title="Recent Tools" />
       <SnippetGrid />
-      <BlogGrid />
+      <BlogGrid data={articles} limit={3} title="Recent Articles" />
       <Footer />
     </>
   );

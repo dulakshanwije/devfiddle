@@ -1,0 +1,110 @@
+<article
+    style="background: rgb(255, 255, 255); color: #111111; font-family: system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial; line-height: 1.65; margin: 0px auto; max-width: 900px; padding: 28px;">
+
+    <!--Article Header-->
+    <header style="margin-bottom: 18px;">
+        <h1 style="font-size: 30px; margin: 0px 0px 8px;">OWASP Top 10 – A01: Broken Access Control Explained</h1>
+        <p style="color: #555555; font-size: 14px; margin: 0px;">
+            Published <time datetime="2025-09-24">September 24, 2025</time>
+        </p>
+    </header>
+
+    <!--Article Image-->
+    <figure style="display: block; margin: 18px 0px; text-align: center;">
+        <img alt="Close-up of computer network cables connected to a switch" height="266" loading="lazy"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPesl8ul-eyy5Bg9dMyceiHN0Ad5y3tQzvbAUdOpW1_X1HpG24CKwZwyDdR7UvxInFD5KK8ehlvqPw2y7lz9Pv-NdS8LECBe1Ov5Dsj6ge_LTfIR_mG3RRgQAQRz-nMbnAGEWOrj-R_p4gmJ7UUDfR5OOszB4aioPTPjme_lLKKsymNpm2izD2oOXnp8VV/w400-h266/network-1572617_1280.jpg"
+            style="border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.08) 0px 6px 20px; height: auto; max-width: 100%;"
+            width="400" />
+        <figcaption style="color: #666666; font-size: 12px; margin-top: 6px;">Photo: Computer network cables plugged
+            into network switch. <span style="color: #444444;">Credit:</span> <a
+                href="https://pixabay.com/users/martinelle-495565/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1572617"
+                rel="noopener noreferrer" style="color: #1a0dab; text-decoration: none;">Jean Martinelle from
+                Pixabay</a></figcaption>
+    </figure>
+
+    <!--Article Description-->
+    <section style="margin-bottom: 18px;">
+        <p style="color: #222222; font-size: 16px; margin: 0px;">
+            Learn how broken access control can lead to major security issues in web applications. This guide explains
+            what it is, why it’s dangerous, common examples, and how to prevent it—all in simple language.
+        </p>
+    </section>
+
+    <!--Article Body-->
+    <section>
+        <h2>What is Broken Access Control?</h2>
+        <p>
+            <strong>Broken Access Control</strong> happens when a web application fails to properly restrict what users
+            are allowed to do. It’s like giving someone the keys to a building and accidentally letting them open every
+            door—even the ones they’re not supposed to.
+        </p>
+        <p>
+            For instance, a normal user might be able to access admin pages or view other users’ private data just by
+            tweaking the URL or using browser tools. This kind of flaw is a serious security risk and is ranked
+            <strong>#1 in the OWASP Top 10</strong>.
+        </p>
+
+        <h2>Why Is It Dangerous?</h2>
+        <p>
+            Access control defines <em>who can do what</em> within your system. If that control is broken, it can lead
+            to:
+        </p>
+        <ul>
+            <li>Unauthorized access to sensitive data</li>
+            <li>Users gaining admin privileges</li>
+            <li>Data modification or deletion by unauthorized users</li>
+            <li>Full system takeover in extreme cases</li>
+        </ul>
+        <p>
+            These issues can lead to data breaches, legal trouble, customer trust loss, and financial damage.
+        </p>
+
+        <h2>Common Examples of Broken Access Control</h2>
+        <h3>1. Insecure Direct Object References (IDOR)</h3>
+        <p>
+            A user can access another person’s data by changing a value in the URL. For example, changing
+            <code>/user/123</code> to <code>/user/124</code> may show someone else’s profile.
+        </p>
+
+        <h3>2. Missing or Weak Authorization Checks</h3>
+        <p>
+            The app doesn’t properly check if the user has permission to perform an action—like deleting data without
+            being an admin.
+        </p>
+
+        <h3>3. Forced Browsing</h3>
+        <p>
+            Attackers manually access hidden pages (like <code>/admin</code>) that aren’t protected, but should be.
+        </p>
+
+        <h3>4. Privilege Escalation</h3>
+        <p>
+            Users increase their access level by exploiting flaws, going from “user” to “admin” without proper checks.
+        </p>
+
+        <h2>How to Prevent Broken Access Control</h2>
+        <ul>
+            <li><strong>Deny by default:</strong> Start with no access and only allow what's necessary.</li>
+            <li><strong>Use role-based access control (RBAC):</strong> Define roles and permissions clearly.</li>
+            <li><strong>Enforce access checks on the server:</strong> Don’t rely on client-side restrictions.</li>
+            <li><strong>Regular security testing:</strong> Use automated tools and manual checks to catch issues early.
+            </li>
+            <li><strong>Avoid “security through obscurity”:</strong> Just hiding pages or links is not enough.</li>
+        </ul>
+
+        <h2>Real-World Case</h2>
+        <p>
+            In 2019, a major financial company suffered a breach because of broken access control. The attacker accessed
+            private financial data simply by changing parameters in a request. This led to massive fines and loss of
+            customer trust.
+        </p>
+
+        <h2>Final Thoughts</h2>
+        <p>
+            Broken access control is one of the most common and dangerous vulnerabilities in web security. Every
+            developer and security team must ensure users can only do what they’re supposed to. By following best
+            practices, you can protect your application—and your users—from serious harm.
+        </p>
+    </section>
+
+</article>

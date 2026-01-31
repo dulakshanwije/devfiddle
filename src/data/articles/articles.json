@@ -1,0 +1,242 @@
+[
+  {
+    "cover_image": "/images/articles/article1.jpg",
+    "title": "OWASP Top 10 – A05: Security Misconfiguration Explained",
+    "slug": "owasp-top-10-a05-security-misconfiguration",
+    "description": "Discover what security misconfiguration means, why it puts your systems at risk, and how to avoid common configuration mistakes to secure your web applications. Security misconfiguration occurs when security settings in your web servers, applications, databases, or networks are incorrect or incomplete. This leaves systems vulnerable to attacks. It is one of the most common issues in web security and can happen at any level of an application stack.",
+    "published_date": "September 24, 2025",
+    "author": "devfiddle.com",
+    "tags": [
+      "Article",
+      "Development",
+      "DevSecOps",
+      "Network",
+      "OWASP",
+      "Security"
+    ]
+  },
+  {
+    "cover_image": "/images/articles/article1.jpg",
+    "title": "OWASP Top 10 – A04: Understanding Insecure Design",
+    "slug": "owasp-top-10-a04-understanding-insecure-design",
+    "description": "Insecure design refers to flaws or weaknesses in the way an application or system is planned and built. Unlike bugs or coding errors, insecure design problems come from poor or missing security controls during the early stages of development.This means that even if the code is written correctly, the overall system may still be vulnerable because the design did not consider security risks properly.",
+    "published_date": "September 24, 2025",
+    "author": "devfiddle.com",
+    "tags": [
+      "Article",
+      "Development",
+      "DevSecOps",
+      "Network",
+      "OWASP",
+      "Security"
+    ]
+  },
+  {
+    "cover_image": "/images/articles/article1.jpg",
+    "title": "OWASP Top 10 – A03: Injection Attacks Explained",
+    "slug": "owasp-top-10-a03-injection-attacks",
+    "description": "Understand what injection attacks are, how they happen, and how to prevent them. This guide explains OWASP Top 10's #3 most dangerous web security risk. Injection attacks happen when untrusted data is sent to a program or database as part of a command or query. If the system fails to properly handle or filter this input, the attacker can trick it into running harmful code. The most common type is SQL Injection, but there are others like Command Injection, LDAP Injection, and XML Injection. These attacks can lead to stolen data, data loss, or complete system compromise.",
+    "published_date": "September 24, 2025",
+    "author": "devfiddle.com",
+    "tags": [
+      "Article",
+      "Development",
+      "DevSecOps",
+      "Network",
+      "OWASP",
+      "Security"
+    ]
+  },
+  {
+    "cover_image": "/images/articles/article1.jpg",
+    "title": "OWASP Top 10 – A02: Cryptographic Failures Explained",
+    "slug": "owasp-top-10-cryptographic-failures",
+    "description": "Learn what cryptographic failures are, why they matter, and how to avoid them. This simple guide covers OWASP Top 10's #2 risk to web application security. Cryptographic failures happen when sensitive data is not properly protected using encryption. This used to be called 'Sensitive Data Exposure' in older OWASP lists. In simple terms, if your website or app stores, sends, or receives private data (like passwords, credit cards, or personal info) without proper security, it’s at risk. Attackers can steal or tamper with the data if it's not encrypted or if outdated encryption methods are used.",
+    "published_date": "August 24, 2025",
+    "author": "devfiddle.com",
+    "tags": [
+      "Article",
+      "Development",
+      "DevSecOps",
+      "Network",
+      "OWASP",
+      "Security"
+    ]
+  },
+  {
+    "cover_image": "/images/articles/article1.jpg",
+    "title": "OWASP Top 10 – A01: Broken Access Control Explained",
+    "slug": "owasp-top-10-broken-access-control",
+    "description": "Learn how broken access control can lead to major security issues in web applications. This guide explains what it is, why it’s dangerous, common examples, and how to prevent it—all in simple language. Broken Access Control happens when a web application fails to properly restrict what users are allowed to do. It’s like giving someone the keys to a building and accidentally letting them open every door—even the ones they’re not supposed to.",
+    "published_date": "August 24, 2025",
+    "author": "devfiddle.com",
+    "tags": [
+      "Article",
+      "Development",
+      "DevSecOps",
+      "Network",
+      "OWASP",
+      "Security"
+    ]
+  },
+  {
+    "cover_image": "/images/articles/article1.jpg",
+    "title": "Essential Web Security Practices for Beginners",
+    "slug": "essential-web-security-practices",
+    "description": "Learn key web security concepts, common attack types, and practical measures to protect your applications. This beginner-friendly guide explains vulnerabilities like XSS, SQL injection, cryptographic failures, and more in simple terms.",
+    "published_date": "August 24, 2025",
+    "author": "devfiddle.com",
+    "tags": [
+      "Article",
+      "Development",
+      "DevSecOps",
+      "Network",
+      "OWASP",
+      "Security"
+    ]
+  },
+  {
+    "cover_image": "/images/articles/article1.jpg",
+    "title": "Beginner's Guide to Web Security: Common Attacks and Best Practices",
+    "slug": "beginners-guide-to-web-security",
+    "description": "This beginner-friendly guide explains common web security vulnerabilities and best practices to prevent them. Each question is simplified with clear explanations so anyone can understand the basics of securing web applications. Extra tips and insights have been added for deeper learning.",
+    "published_date": "August 24, 2025",
+    "author": "devfiddle.com",
+    "tags": [
+      "Article",
+      "Development",
+      "DevSecOps",
+      "Network",
+      "OWASP",
+      "Security"
+    ]
+  },
+  {
+    "cover_image": "/images/articles/article1.jpg",
+    "title": "Mastering Web Security: Key Vulnerabilities and Prevention Tips",
+    "slug": "mastering-web-security",
+    "description": "Explore essential web security concepts, common attacks, and practical strategies to protect your applications. This guide breaks down vulnerabilities like XSS, SQL injection, SSRF, and cryptographic failures in simple, beginner-friendly language.",
+    "published_date": "August 24, 2025",
+    "author": "devfiddle.com",
+    "tags": [
+      "Article",
+      "Development",
+      "DevSecOps",
+      "Network",
+      "OWASP",
+      "Security"
+    ]
+  },
+  {
+    "cover_image": "/images/articles/article1.jpg",
+    "title": "Security Testing and Mitigation Strategies – Questions & Answers (2026)",
+    "slug": "security-testing-and-mitigation-strategies",
+    "description": "Functional testing includes ad hoc and exploratory testing, focusing on verifying software behavior without predefined scripts. For applications with multiple modules developed by different teams, integration testing ensures all components work securely across tiers. Security testing should be integrated during the test phase of the Software Development Lifecycle (SDLC) to validate protections before deployment. To confirm security measures function as intended, functional security testing is essential.",
+    "published_date": "August 11, 2025",
+    "author": "devfiddle.com",
+    "tags": [
+      "Article",
+      "Development",
+      "DevSecOps",
+      "Network",
+      "OWASP",
+      "Security"
+    ]
+  },
+  {
+    "cover_image": "/images/articles/article1.jpg",
+    "title": "Understanding Key Analysis in Application Security and Performance",
+    "slug": "understanding-key-analysis-in-applications",
+    "description": "Security in application development requires multiple analysis and protection strategies. Vulnerability analysis identifies flaws within applications, while software component analysis (SCA) detects risks in open-source libraries and dependencies. Continuous security analysis should be prioritized from the earliest development stages through deployment and production, ensuring ongoing protection. Tools like SNYK help secure both code and dependencies, offering developers a unified security platform.",
+    "published_date": "August 11, 2025",
+    "author": "devfiddle.com",
+    "tags": [
+      "Article",
+      "Development",
+      "DevSecOps",
+      "Network",
+      "OWASP",
+      "Security"
+    ]
+  },
+  {
+    "cover_image": "/images/articles/article1.jpg",
+    "title": "Security Testing and Mitigation: Questions & Answers for Developers",
+    "slug": "security-testing-and-mitigation",
+    "description": "Security testing and mitigation are not one-time tasks—they are ongoing processes integrated into the entire software development lifecycle (SDLC). From automated SAST scans and manual reviews to runtime protection via IAST and RASP, every stage of development offers opportunities to detect and eliminate vulnerabilities. By combining proactive testing, continuous analysis, structured threat modeling, and team education, organizations can strengthen their security posture and deliver applications that stand resilient against modern cyber threats.",
+    "published_date": "August 11, 2025",
+    "author": "devfiddle.com",
+    "tags": [
+      "Article",
+      "Development",
+      "DevSecOps",
+      "Network",
+      "OWASP",
+      "Security"
+    ]
+  },
+  {
+    "cover_image": "/images/articles/article1.jpg",
+    "title": "Essential Security Principles for Application Developers - Frequently Asked Questions (2026)",
+    "slug": "security-principles-for-application-developers",
+    "description": "Security by design integrates security testing and best practices directly into the development process. DevSecOps automates security throughout the software development lifecycle. Threat modeling diagrams visualize data flows in applications to identify risks. Container scanning checks all image layers to detect vulnerabilities from dependencies. Application integrity ensures data remains unchanged by unauthorized sources.",
+    "published_date": "August 10, 2025",
+    "author": "devfiddle.com",
+    "tags": [
+      "Article",
+      "Development",
+      "DevSecOps",
+      "Network",
+      "OWASP",
+      "Security"
+    ]
+  },
+  {
+    "cover_image": "/images/articles/article1.jpg",
+    "title": "Inspecting Security in Application Development: Where to Start Learning",
+    "slug": "inspecting-security-in-development",
+    "description": "Vulnerability scanning is an automated process that detects security weaknesses in an application’s code and environment. A common coding vulnerability is SQL injection, which allows attackers to manipulate databases through unsafe inputs. Vulnerability scanners help identify such issues quickly. Threat modeling, like the STRIDE methodology, systematically identifies threats such as spoofing, tampering, and denial of service. It involves recognizing and categorizing potential security risks to design better defenses.",
+    "published_date": "August 10, 2025",
+    "author": "devfiddle.com",
+    "tags": [
+      "Article",
+      "Development",
+      "DevSecOps",
+      "Network",
+      "OWASP",
+      "Security"
+    ]
+  },
+  {
+    "cover_image": "/images/articles/article1.jpg",
+    "title": "The Role of Network Security: Protecting Your Digital Infrastructure",
+    "slug": "the-role-of-network-security",
+    "description": "Network security is the practice of protecting computer networks from unauthorized access, misuse, or attacks. It involves implementing policies, technologies, and controls to safeguard data integrity, confidentiality, and availability across the network. Key components include firewalls, intrusion detection systems, encryption, and access controls, which work together to prevent cyber threats like malware, phishing, and data breaches.",
+    "published_date": "August 10, 2025",
+    "author": "devfiddle.com",
+    "tags": [
+      "Article",
+      "Development",
+      "DevSecOps",
+      "Network",
+      "OWASP",
+      "Security"
+    ]
+  },
+  {
+    "cover_image": "/images/articles/article1.jpg",
+    "title": "Introduction to DevSecOps: Frequently Asked Questions (FAQs) for 2026",
+    "slug": "introduction-to-devsecops",
+    "description": "DevSecOps integrates security into every stage of the software development lifecycle, making security a shared responsibility among development, operations, and security teams. By automating security testing, vulnerability scanning, and compliance checks early and continuously, it helps identify and fix risks faster.",
+    "published_date": "August 10, 2025",
+    "author": "devfiddle.com",
+    "tags": [
+      "Article",
+      "Development",
+      "DevSecOps",
+      "Network",
+      "OWASP",
+      "Security"
+    ]
+  }
+]

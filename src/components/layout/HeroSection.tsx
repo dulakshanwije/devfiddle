@@ -20,7 +20,7 @@ const data = [
   {
     title: "Snippets",
     description:
-      "Snippets that worked well enough to save. Collected here for easy reference.",
+      "Snippets that worth to save. Collected here for easy reference.",
     cta: "Browse Snippets",
     link: "/snippets",
   },
@@ -30,7 +30,7 @@ const HeroSection = () => {
   return (
     <div className="h-[600px] relative mb-20 lg:mb-16">
       <div className="bg-linear-to-b from-[#156054] to-primary h-16/20 rounded-b-2xl text-4xl">
-        <div className="flex flex-col justify-center items-center bg-[url('/images/bg-hero.svg')] bg-no-repeat bg-center h-full w-full">
+        <div className="flex flex-col justify-center items-center h-full w-full">
           <p className="mb-2 bg-white border border-secondary text-secondary rounded-full px-4 py-1 text-sm max-w-1/2 text-center font-semibold tracking-wide">
             #devfiddle.com
           </p>

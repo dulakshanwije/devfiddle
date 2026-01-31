@@ -1,0 +1,131 @@
+<div
+    style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; line-height:1.65; color:#111; background:#fff; margin:0 auto; padding:28px; max-width:900px;">
+    <article style="margin:0 auto;">
+        <header style="margin-bottom:18px;">
+            <h1 style="font-size:30px; margin:0 0 8px;">Essential Security Principles for Application Developers</h1>
+            <p style="margin:0; font-size:14px; color:#555;">Published <time datetime="2025-08-10">August 10,
+                    2025</time></p>
+        </header>
+
+        <figure style="margin:18px 0; display:block; text-align:center;">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdmfrzBgJeIjVugIQ1OD-kxJTgXlpx5quzLNGwqO0zslC5Nin9IWwcC6d5_sUKZKdE85yz23T3HOvQggF5KswgMsOU6OqPeNvDdeIyScrGy3t7KLo77CQTkprkap7V8RZZe1HN75bOdY2kDfBqeVGhNiRd1xLC6Tepb8xrT92An3EGG83MxSPoaXzWIHn3/s320/internet-4521076_1280.jpg"
+                alt="Internet Security" loading="lazy"
+                style="max-width:100%; height:auto; border-radius:8px; box-shadow:0 6px 20px rgba(0,0,0,0.08);" />
+            <figcaption style="font-size:12px; color:#666; margin-top:6px;">Photo: Internet Security. <span
+                    style="color:#444;">Credit:</span> <a href="https://pixabay.com/users/schluesseldienst-13794927/"
+                    rel="noopener noreferrer" style="color:#1a0dab; text-decoration:none;">Schluesseldienst from
+                    Pixabay</a></figcaption>
+        </figure>
+
+        <section style="margin-bottom:18px;">
+            <p style="font-size:16px; margin:0; color:#222;">Security by design integrates security testing and best
+                practices directly into the development process. DevSecOps automates security throughout the software
+                development lifecycle. Threat modeling diagrams visualize data flows in applications to identify risks.
+                Container scanning checks all image layers to detect vulnerabilities from dependencies. Application
+                integrity ensures data remains unchanged by unauthorized sources. Key OSI layers like the session layer
+                handle dialog control, while TLS security involves a sequence of handshake steps for safe communication.
+                Securing the code delivery pipeline is crucial when developers commit code. Security patterns aid
+                developers by linking threat models to reusable security solutions, supported by cryptographic hash
+                functions like message digests.</p>
+        </section>
+
+        <section aria-labelledby="faq-heading" style="margin-top:12px;">
+            <h2 id="faq-heading" style="font-size:22px; margin:8px 0 12px;">Frequently Asked Questions</h2>
+            <div style="margin-bottom:14px;">
+                <h3 style="font-size:18px; margin:0 0 6px;">1. What is security by design?</h3>
+                <div style="padding-left:10px;">
+                    <p style="margin:0 0 6px;">The process of involving security testing and its best practice in your
+                        existing development model</p>
+                    <p style="font-size:13px; color:#555; margin:0;">Integrating security from the start helps catch
+                        vulnerabilities early, reducing costly fixes later and ensuring a more secure product.</p>
+                </div>
+            </div>
+            <div style="margin-bottom:14px;">
+                <h3 style="font-size:18px; margin:0 0 6px;">2. Which answer best describes DevSecOps?</h3>
+                <div style="padding-left:10px;">
+                    <p style="margin:0 0 6px;">Automating security integration across the software development lifecycle
+                        (SDLC)</p>
+                    <p style="font-size:13px; color:#555; margin:0;">DevSecOps embeds automated security checks into
+                        every stage of development to speed up secure software delivery.</p>
+                </div>
+            </div>
+            <div style="margin-bottom:14px;">
+                <h3 style="font-size:18px; margin:0 0 6px;">3. What do threat modeling diagrams represent?</h3>
+                <div style="padding-left:10px;">
+                    <p style="margin:0 0 6px;">Data flows within software applications</p>
+                    <p style="font-size:13px; color:#555; margin:0;">These diagrams visualize how data moves, helping
+                        identify weak points where security threats may occur.</p>
+                </div>
+            </div>
+            <div style="margin-bottom:14px;">
+                <h3 style="font-size:18px; margin:0 0 6px;">4. Why should container scanning check the base image and
+                    all other layered container images?</h3>
+                <div style="padding-left:10px;">
+                    <p style="margin:0 0 6px;">Container images may have dependencies on other container images with
+                        vulnerabilities.</p>
+                    <p style="font-size:13px; color:#555; margin:0;">Vulnerabilities in base or layered images can
+                        compromise the entire container, so scanning all layers ensures thorough security.</p>
+                </div>
+            </div>
+            <div style="margin-bottom:14px;">
+                <h3 style="font-size:18px; margin:0 0 6px;">5. What does it mean to have integrity in application
+                    security?</h3>
+                <div style="padding-left:10px;">
+                    <p style="margin:0 0 6px;">Ensuring that an unauthenticated source has made no changes to your data
+                    </p>
+                    <p style="font-size:13px; color:#555; margin:0;">Integrity protects data from unauthorized
+                        modification, preserving trustworthiness.</p>
+                </div>
+            </div>
+            <div style="margin-bottom:14px;">
+                <h3 style="font-size:18px; margin:0 0 6px;">6. Which OSI layer delivers benefits such as dialog control
+                    and token management?</h3>
+                <div style="padding-left:10px;">
+                    <p style="margin:0 0 6px;">Session layer</p>
+                    <p style="font-size:13px; color:#555; margin:0;">The Session layer manages communication sessions,
+                        handling dialog and token controls for stable connections.</p>
+                </div>
+            </div>
+            <div style="margin-bottom:14px;">
+                <h3 style="font-size:18px; margin:0 0 6px;">7. What is the correct sequence of steps to ensure TLS
+                    security in the software development life cycle or SDLC?</h3>
+                <div style="padding-left:10px;">
+                    <p style="margin:0 0 6px;">Computers agree on TLS version → Computers agree on supported cipher →
+                        Server’s identity and TLS certificate signature verification → Computers generate session keys
+                        to communicate secretly</p>
+                    <p style="font-size:13px; color:#555; margin:0;">This sequence establishes a secure encrypted
+                        communication channel through negotiation, authentication, and key exchange.</p>
+                </div>
+            </div>
+            <div style="margin-bottom:14px;">
+                <h3 style="font-size:18px; margin:0 0 6px;">8. When application developers commit code to an application
+                    project, which layer should be secured and restricted?</h3>
+                <div style="padding-left:10px;">
+                    <p style="margin:0 0 6px;">Security code delivery pipeline layer</p>
+                    <p style="font-size:13px; color:#555; margin:0;">Restricting this pipeline prevents unauthorized
+                        code changes, maintaining code integrity and security.</p>
+                </div>
+            </div>
+            <div style="margin-bottom:14px;">
+                <h3 style="font-size:18px; margin:0 0 6px;">9. A security pattern must provide steps and processes for
+                    developers by analyzing and modeling threats. Which of the following is another aspect it should
+                    include?</h3>
+                <div style="padding-left:10px;">
+                    <p style="margin:0 0 6px;">It must trace the threat model back to security to promote reusability.
+                    </p>
+                    <p style="font-size:13px; color:#555; margin:0;">Linking patterns to threat models ensures
+                        consistent and reusable security solutions across projects.</p>
+                </div>
+            </div>
+            <div style="margin-bottom:14px;">
+                <h3 style="font-size:18px; margin:0 0 6px;">10. Message digest algorithms are cryptographic hash
+                    functions used to ________________.</h3>
+                <div style="padding-left:10px;">
+                    <p style="margin:0 0 6px;">Compute checksums of data blocks, and sign and verify signatures</p>
+                    <p style="font-size:13px; color:#555; margin:0;">They create unique data fingerprints that verify
+                        data integrity and support digital signatures.</p>
+                </div>
+            </div>
+        </section>
+    </article>
+</div>

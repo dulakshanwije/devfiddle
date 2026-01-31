@@ -1,0 +1,111 @@
+<article
+    style="background: rgb(255, 255, 255); color: #111111; font-family: system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial; line-height: 1.65; margin: 0px auto; max-width: 900px; padding: 28px;">
+
+    <!--Article Header-->
+    <header style="margin-bottom: 18px;">
+        <h1 style="font-size: 30px; margin: 0px 0px 8px;">OWASP Top 10 – A03: Injection Attacks Explained</h1>
+        <p style="color: #555555; font-size: 14px; margin: 0px;">
+            Published <time datetime="2025-09-24">September 24, 2025</time>
+        </p>
+    </header>
+
+    <!--Article Image-->
+    <figure style="display: block; margin: 18px 0px; text-align: center;">
+        <img alt="Software engineer coding on a laptop" loading="lazy"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgi93Uy4Sfm54Zfvwox3Hq5vffKKgXHyEOSxqOx_G0uBnwUsqdD4htohkbgADrD1XogVp8gcShYv2r46sw_ID8dLmSQ-ue5NHXk52M-kagk3Ozwuopjcw4ar4cIrhe4wzwiPaQhh0Dd4pbFsfNLVILU9B0ZeeVVBadJqjNyb_AkOlPPwlx4vyS92IOOEPa5/s400/engineer-4904884_1280.jpg"
+            style="border-radius: 8px; box-shadow: rgba(0, 0, 0, 0.08) 0px 6px 20px; height: auto; max-width: 100%;" />
+        <figcaption style="color: #666666; font-size: 12px; margin-top: 6px;">Photo: Software engineer programming at
+            workstation. <span style="color: #444444;">Credit:</span> <a
+                href="https://pixabay.com/users/this_is_engineering-11384528/" rel="noopener noreferrer"
+                style="color: #1a0dab; text-decoration: none;">Image by This_is_Engineering from Pixabay</a>
+        </figcaption>
+    </figure>
+
+    <!--Article Description-->
+    <section style="margin-bottom: 18px;">
+        <p style="color: #222222; font-size: 16px; margin: 0px;">
+            Understand what injection attacks are, how they happen, and how to prevent them. This guide explains OWASP
+            Top 10's #3 most dangerous web security risk.
+        </p>
+    </section>
+
+    <!--Article Body-->
+    <section>
+        <h2>What Are Injection Attacks?</h2>
+        <p>
+            Injection attacks happen when untrusted data is sent to a program or database as part of a command or query.
+            If the system fails to properly handle or filter this input, the attacker can trick it into running harmful
+            code.
+        </p>
+        <p>
+            The most common type is <strong>SQL Injection</strong>, but there are others like <strong>Command
+                Injection</strong>, <strong>LDAP Injection</strong>, and <strong>XML Injection</strong>. These attacks
+            can lead to stolen data, data loss, or complete system compromise.
+        </p>
+
+        <h2>Why Are Injection Attacks Dangerous?</h2>
+        <p>
+            Injection attacks can:
+        </p>
+        <ul>
+            <li>Expose sensitive data like usernames, passwords, or credit cards</li>
+            <li>Allow attackers to bypass login systems</li>
+            <li>Let hackers delete or modify your data</li>
+            <li>In some cases, give full control of the server to attackers</li>
+        </ul>
+        <p>
+            These are serious risks that can affect both small websites and large organizations.
+        </p>
+
+        <h2>Common Examples of Injection</h2>
+
+        <h3>1. SQL Injection (SQLi)</h3>
+        <p>
+            An attacker enters SQL code into a form field or URL to access or manipulate a database.
+        </p>
+        <p>
+            Example:
+            <code>' OR '1'='1</code> can trick a login form into granting access without a valid password.
+        </p>
+
+        <h3>2. Command Injection</h3>
+        <p>
+            The attacker injects operating system commands through a vulnerable application. This can allow remote code
+            execution.
+        </p>
+
+        <h3>3. Cross-Site Scripting (XSS)</h3>
+        <p>
+            Though technically a different category, it is similar in that malicious code is injected into a page and
+            run in the browser.
+        </p>
+
+        <h2>How to Prevent Injection Attacks</h2>
+        <ul>
+            <li><strong>Use prepared statements (parameterized queries):</strong> This stops user input from being
+                treated as code.</li>
+            <li><strong>Use ORM frameworks:</strong> Like Django ORM or Hibernate to handle database queries securely.
+            </li>
+            <li><strong>Validate and sanitize all input:</strong> Ensure user input meets expected format and remove
+                harmful characters.</li>
+            <li><strong>Use stored procedures carefully:</strong> Avoid dynamic SQL inside stored procedures.</li>
+            <li><strong>Least privilege access:</strong> Databases should not run with admin-level permissions unless
+                necessary.</li>
+        </ul>
+
+        <h2>Real-World Example</h2>
+        <p>
+            In 2012, a major tech company suffered a SQL injection attack that exposed over 450,000 user accounts. The
+            attacker used a simple URL-based injection to pull user emails and passwords from the database. The breach
+            was highly public and damaging to the company’s reputation.
+        </p>
+
+        <h2>Final Thoughts</h2>
+        <p>
+            Injection attacks are easy to launch but can be devastating if successful. Fortunately, they are also
+            preventable. By using secure coding practices and properly handling user input, developers can eliminate the
+            risk of injection and protect both their applications and their users.
+        </p>
+    </section>
+
+</article>
