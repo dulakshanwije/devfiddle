@@ -1,0 +1,16 @@
+# Blog Migration Redirects
+/2025/09/owasp-top-10-a05-security.html                /articles/owasp-top-10-a05-security-misconfiguration  301
+/2025/09/owasp-top-10-a04-understanding-insecure.html  /articles/owasp-top-10-a04-understanding-insecure-design  301
+/2025/09/owasp-top-10-a03-injection-attacks.html       /articles/owasp-top-10-a03-injection-attacks           301
+/2025/09/owasp-top-10-cryptographic-failures.html      /articles/owasp-top-10-cryptographic-failures          301
+/2025/09/owasp-top-10--broken-access-control.html      /articles/owasp-top-10-broken-access-control           301
+/2025/08/essential-web-security-practices.html         /articles/essential-web-security-practices             301
+/2025/08/beginners-guide-to-web-security.html          /articles/beginners-guide-to-web-security              301
+/2025/08/mastering-web-security.html                   /articles/mastering-web-security                       301
+/2025/08/security-testing-and-mitigation-strategies.html /articles/security-testing-and-mitigation-strategies 301
+/2025/08/understanding-key-analysis-in-applicat.html   /articles/understanding-key-analysis-in-applications   301
+/2025/08/security-testing-and-mitigation.html          /articles/security-testing-and-mitigation               301
+/2025/08/blog-post_10.html                             /articles/security-principles-for-application-developers 301
+/2025/08/inspecting-security-in-development.html       /articles/inspecting-security-in-development            301
+/2025/08/blog-post.html                                /articles/the-role-of-network-security                 301
+/2025/08/introduction-to-devsecops.html                /articles/introduction-to-devsecops                    301
