@@ -1,4 +1,5 @@
 import ToolGrid from "@/components/layout/ToolGrid";
+import PageTitle from "@/components/ui/PageTitle";
 
 import { promises as fs } from "fs";
 import path from "path";
@@ -10,7 +11,8 @@ const ToolList = async () => {
 
   return (
     <div className="mt-24">
-      <ToolGrid data={tools} title="All Tools" />
+      <PageTitle title="All Tools" />
+      <ToolGrid data={tools} />
     </div>
   );
 };

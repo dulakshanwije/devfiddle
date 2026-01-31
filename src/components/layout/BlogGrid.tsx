@@ -11,7 +11,7 @@ type Props = {
     author: string;
     tags: [string];
   }[];
-  title: string;
+  title?: string;
   limit?: number;
   bottomDesign?: boolean;
 };
@@ -24,7 +24,7 @@ const BlogGrid = ({ data, limit, title, bottomDesign = true }: Props) => {
         <div className="bg-primary absolute h-1/4 w-full -z-50 bottom-0 rounded-t-2xl"></div>
       )}
       <div className="max-w-7xl mx-auto w-full pb-24">
-        <SectionTitle title={title} link="/articles" />
+        {title && <SectionTitle title={title} link="/articles" />}
         <div className="grid max-w-7xl w-full px-4 xl:p-0 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-10">
           {data.map((item, key) => (
             <BlogCard

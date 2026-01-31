@@ -20,7 +20,7 @@ const BlogCard = ({ title, image, description, tags, link }: BlogCardProps) => {
           width={"80"}
           height={"80"}
           alt={"image"}
-          className="w-full max-h-80 overflow-hidden rounded-t-2xl"
+          className="w-full max-h-50 overflow-hidden rounded-t-2xl"
         />
         <div className="px-4 py-2 w-full min-h-60 flex flex-col justify-between">
           <div className=" w-full">

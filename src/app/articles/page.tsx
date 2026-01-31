@@ -1,4 +1,5 @@
 import BlogGrid from "@/components/layout/BlogGrid";
+import PageTitle from "@/components/ui/PageTitle";
 
 import { promises as fs } from "fs";
 import path from "path";
@@ -10,7 +11,8 @@ const ToolList = async () => {
 
   return (
     <div className="mt-24">
-      <BlogGrid data={articles} title="All Articles" bottomDesign={false} />
+      <PageTitle title="All Articles" />
+      <BlogGrid data={articles} bottomDesign={false} />
     </div>
   );
 };
